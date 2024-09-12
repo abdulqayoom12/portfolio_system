@@ -1,0 +1,215 @@
+ <!DOCTYPE html>
+ </body>
+ </html>
+ <html>
+    <head>
+        <title>my web portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/cc2dae4f24.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+    <div id="header">
+        <div class="container">
+             <nav>
+                <img src="images/logo.jpeg" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#services">services</a></li>
+                    <li><a href="#portfolio">portfolio</a></li>                                    
+                    <li><a href="#contact">contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i> 
+                </ul>
+                    <i class="fas fa-bars" onclick="openmenu()"></i>
+             </nav>
+                 <div class="header-text">
+                         <p>Web/Software Designer</p>
+                         <h1>Hi, I`m <span> AbdulQayoom</span><br>From Sindh</h1>
+                </div>
+             </div>
+         </div>
+        <!---------------------------------------About-------------------------------->
+        <div id="About">
+            <div class="container">
+                <div class="row">
+                    <div class="About-co-1">
+                        <img src="images/img4.jpg">
+                    </div>
+                    <div class="About-co-2">
+                        <h1 class="sub-title">About Me</h1> 
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia quas repudiandae blanditiis quibusdam nam, ea accusantium iure asperiores eum non debitis porro iusto incidunt sunt hic alias dolore neque. Aliquid voluptates nam, fugit eius minima natus repellendus distinctio mollitia,</p>
+                    
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                            <p class="tab-links"onclick="opentab('Experience')">Experience</p>
+                            <p class="tab-links"onclick="opentab('Education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>UI/UX</span><br>Designer Web/App interface</li>
+                                <li><span>WEB Develoment</span><br> Web/App  Develoment</li>
+                                <li><span>App  Develoment</span><br>Building Android/ios apps</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="Experience" >
+                            <ul>
+                                <li><span>2021 - current</span><br>UI/UX Design Training at ET Institute.</li>
+                                <li><span>2019 - 2021</span><br> Team lead at starApp LLc.</li>
+                                <li><span>2017 - 2019</span><br>UI/UX Design Executive at coin Digial Ltd.</li>
+                                <li><span>2016 - 2017</span><br>Intership at ekart eCommerce.</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="Education" >
+                            <ul>
+                                <li><span>2016</span><br>UI/UX Design Training at ET Institute.</li>
+                                <li><span>2016</span><br> Team lead at starApp LLc.</li>
+                                <li><span>2014</span><br>MBA from MIT karachi Sindh.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!---------------------------------services----------------------------------------------->
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-titles">My services</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fas fa-code"></i>
+                        <h2>Web Design</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam aperiam deleniti at, et illum nostrum accusantium blanditiis eveniet molestiae. Sit perspiciatis harum culpa deleniti iste minus ipsa quos maxime quo assumenda maiores officia esse dignissimos quis,</p>
+                        <a href="#">learn more</a>
+                    </div>
+                    <div>
+                        <i class="fas fa-crop-alt"></i>
+                        <h2>UI/UX Design</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam aperiam deleniti at, et illum nostrum accusantium blanditiis eveniet molestiae. Sit perspiciatis harum culpa deleniti iste minus ipsa quos maxime quo assumenda maiores officia esse dignissimos quis,</p>
+                        <a href="#">learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-app-store"></i>
+                        <h2>App Design</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam aperiam deleniti at, et illum nostrum accusantium blanditiis eveniet molestiae. Sit perspiciatis harum culpa deleniti iste minus ipsa quos maxime quo assumenda maiores officia esse dignissimos quis,</p>
+                        <a href="#">learn more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-------------------------------portfolio---------------------->
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-titles">My work</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="images/work-1.jpeg">
+                        <div class="layer">
+                            <h3>Social Media App</h3>
+                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis porro dignissimos.  </p>
+                             <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/work-2.jpeg">
+                        <div class="layer">
+                            <h3>Music App</h3>
+                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis porro dignissimos.</p>
+                             <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/work-4.jpeg"><div class="layer">
+                            <h3>Online Shopping</h3>
+                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis porro dignissimos. </p>
+                             <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <!-------------------------------contact------------------------------------------->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fas fa-paper-plane"></i> abulqyoom@gmail.com</p>
+                        <p><i class="fas fa-phone-square-alt"></i>03081001532</p>
+                        <div class="social-icons">
+                            <a href="http://facebook.com/"><i class="fab fa-facebook"></i></a>
+                            <a href="#"><i class="fab fa-twitter-square"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-linkedin "></i></a>
+                        </div>
+                        <a href="images/CV.PDf1.pdf" Download class="btn btn2">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message" ></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                </div>
+            </div> 
+            <div class="copyright">
+                <p>copyright AbdulQayoom with <i class="fas fa-heart"></i> by tutorial</p>
+            </div>
+        </div>
+
+        <script>
+
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+
+            function opentab(tabname){
+               for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+               }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+        </script> 
+
+        <script>
+
+            var sidemenu = document.getElementById("sidemenu");
+
+            function openmenu(){
+                sidemenu.style.right = "0";
+            }
+            function closemenu(){
+                sidemenu.style.right = "-200px";
+            }
+
+        </script>
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbxd_vaBJNWMO9lqhxw0dOS2ApeMcBNwz97bojshGP13-8peLesVjYy0nW_Uw2ohe1Dd/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const msg = document.getElementById("msg")
+          
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => {
+                    msg.innerHTML ="Message sent successfully"
+                    setTimeout(function(){
+                        msg.innerHTML = ""
+
+                    },5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+            })
+          </script>
+
+        
+        
+    </body>
+</html>
